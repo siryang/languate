@@ -1,0 +1,6 @@
+基本格式
+
+select [column] from [table] where [condition]
+
+where A.ID = B.ID
+查找A表和B表中，ID相同的条目

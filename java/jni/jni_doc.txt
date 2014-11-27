@@ -1,0 +1,5 @@
+1.gdb的core文件应该不能在jni崩溃后生成，但是java可以生成hs_err_${pid}.log文件。
+
+
+2.c程序链接了libmysqlclient.a后，做成so在tomcat中启动失败。
+

@@ -1,0 +1,29 @@
+1. java Hello World:
+
+package test.main;
+
+public class Main{
+
+	// static 
+	static {
+		System.out.println( "pwd:"+System.getProperty("sun.boot.library.path"));
+	}
+	
+	// main
+	public static void main(String[] args) {  
+	  System.out.println("Hello World!"); 
+	  }
+}
+=======================
+2.inheritance
+class Base{
+	Base(int a){};
+}
+
+class Child externds Base{
+	Child(int a){
+		super(a);
+	}
+}
+
+=======================

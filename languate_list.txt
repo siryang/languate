@@ -1,0 +1,13 @@
+ruby
+Clojure:
+	http://zh.wikipedia.org/wiki/Clojure
+Rust:
+	http://www.csdn.net/article/2014-02-26/2818556-Rust
+	
+	
+纯函数式编程语言
+	Haskell, 
+	Miranda
+非纯函数式编程语言
+F#/ML/OCaml/Scala
+Erlang/LISP/LOGO/Scheme/Clojure/R/Mathmatica

@@ -1,0 +1,33 @@
+JAVA的环境变量
+
+JAVA_HOME
+CLASSPATH += $(JAVA_HOME)/jre/lib
+
+PATH += $(JAVA_HOME)/jre/bin
+
+
+=====================
+-Djava.library.path=xxx和JAVA_LIBRARY_PATH变量
+java.library.path是系统定义和用户定义两部分之和，使用-Djava.library.path=xx后，将覆盖原有的Path
+使用export JAVA_LIBRARY_PATH=${JAVA_LIBRARY_PATH}:xxx，只会修改用户定义的部分。
+而且，如果先定义了JAVA_LIBRARY_PATH再调用-Djava.library.path=..也会覆盖
+同时，猜测系统默认的-Djava.library.path由三个变量组成，$(sys):$(ld_library):$(unknow)
+综上，总结一下，尽量用修改LD_LIBRARY_PATH来实现
+
+=====================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

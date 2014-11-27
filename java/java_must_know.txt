@@ -1,0 +1,32 @@
+=============================
+1.
+	java -Djava.library.path=... java.class
+	java -Djava.library.path=... -jar java.jar
+	path设置必须在可执行程序之前
+
+=============================
+2.
+	jar -cvfm "Name".jar MANIFEST.MF a.class b.class | path
+	MANIFEST.MF文件名必须大写，并且必须指定Main-Class
+	MANIFEST.MF Template:
+		Manifest-Version: 1.0
+		Created-By: ant 1.4
+		Main-Class: com.example.myAppMain
+		Class-Path: mail.jar activation.jar
+
+	另外
+	Eclipse 中制作 JAR https://sites.google.com/site/waue0920/Home/java/java-de-da-bao-chengjar-fang-fa
+	
+=============================
+3.
+	String <--> byte[]
+	String str = new String(bytes);
+	byte[] bytes = str.getBytes();
+
+=============================	
+4.
+	System.in.read用法
+	http://blog.csdn.net/studyvcmfc/article/details/6919359
+
+
+	jni的OnLoad必须返回Version, 否则运行会报错java.lang.UnsatisfiedLinkError

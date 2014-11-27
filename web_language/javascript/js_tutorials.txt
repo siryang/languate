@@ -1,0 +1,7 @@
+
+===========
+2.api
+	confirm("String"); // Ok dialog box
+	prompt("Input some thing"); // textbox
+	
+	

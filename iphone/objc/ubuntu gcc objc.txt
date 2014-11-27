@@ -1,0 +1,7 @@
+
+
+1.sudo apt-get install gobjc gnustep gnustep-devel
+
+2.gcc `gnustep-config --objc-flags` main.m  -lgnustep-base -lobjc 
+	
+	link必须在main.m之后
