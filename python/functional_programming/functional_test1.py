@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 #-------------------------------------------------------------------------------
-# Name:        模块1
+# Name:        functional programming test
 # Purpose:
 #
 # Author:      yangdi
 #
 # Created:     08/02/2014
 # Copyright:   (c) yangdi 2014
-# Licence:     <your licence>
+# Licence:     WTFGPL
 #-------------------------------------------------------------------------------
 
 def even_filter(nums):
