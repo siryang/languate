@@ -121,6 +121,19 @@
 	},
 	"file_history":
 	[
+		"/F/proj/server/nc_server_yangdi/lib/data/map3d/map4_style_sheet.json",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/F/sir_yang_project/google engine/goagent/local/proxy.ini",
+		"/F/sir_yang_project/git_siryang/git-practice/hexo/source/_posts/tools/goagent.md",
+		"/F/proj/server/nc_server_yangdi/update.py",
+		"/F/proj/navi_core/navi_core_trunk/examples/glmap/data/map3dv4/map4_style_sheet.json",
+		"/F/proj/navi_core/navi_core_trunk/examples/glmap/data/map3d/map4_style_sheet.json",
+		"/C/Users/yangdi/Downloads/词库",
+		"/F/proj/qite/qite_git/config/qite.sln",
+		"/F/proj/dc/redc/red_splitter/code/config/red_splitter.vcproj",
+		"/C/Windows/System32/drivers/etc/services",
+		"/F/sir_yang_project/google engine/goagent/server/gae/app.yaml",
+		"/F/sir_yang_project/google engine/goagent/local/proxy.pac",
 		"/F/proj/navi_core/examples/glmap/data/map3dv4/map4_style_sheet.json",
 		"/C/Users/yangdi.MAPBAR0/Desktop/day_scheduler.log",
 		"/I/proj/eclipse/RubyHelloWorld/sublime_test.py",
@@ -157,6 +170,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"configvs2013",
+			"..\\..\\navi_core\\config\\",
+			"google_cn",
+			"mode",
 			"print",
 			"Sublime",
 			"Sublime破解"
@@ -167,6 +184,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"config\\vs2013",
+			"configvs\\2013",
+			"..\\..\\..\\navi_core\\navi_core_trunk\\config"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -224,7 +244,7 @@
 	"project": "siryang.sublime-project",
 	"replace":
 	{
-		"height": 52.0
+		"height": 80.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -251,6 +271,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
