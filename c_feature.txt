@@ -27,10 +27,13 @@ class TT
 }
 ###
 
-上面这个.h对应的代码编译成库后，修改Test.h文件本身，讲private-->publie就可以正常访问private变量。
+问题：
+	上述代码编译成库文件后，
+	将private改为publie就可以正常访问private变量。
 
-如果定义一个Struct Self{int x; int y};
-然后再private中使用Self*声明，则能隐藏TT中的私有变量结构。
+解决：
+	如果定义一个Struct Self{int x; int y};
+	然后再private中使用Self*声明，则能隐藏TT中的私有变量结构。
 ===============
 
 待验证的

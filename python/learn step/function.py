@@ -10,7 +10,7 @@ class MyClass:
         self.data = data
         print(self.data)
 
-    def __call__(self, data):
+    def __call__(self, data):   
         print("__call__ call")
         self.data *= data
         print(self.data)

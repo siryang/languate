@@ -18,4 +18,6 @@ class Rect:
 		self.right = _r
 		self.bottom = _b
 
+if __name__ == "__main__":
+    print "this is the main function"
 
