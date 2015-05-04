@@ -34,7 +34,7 @@ class TT
 解决：
 	如果定义一个Struct Self{int x; int y};
 	然后再private中使用Self*声明，则能隐藏TT中的私有变量结构。
-===============
+=======
 
 待验证的
 不要用const和volatile关键字修饰引用，但是const A&做形参，是有必要的
