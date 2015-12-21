@@ -70,5 +70,9 @@ function hh(a, p){
 console.log(hh(3,4));
 
 
+console.log(Math.cos(1.5));
+
+
+
 
 

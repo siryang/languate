@@ -22,9 +22,10 @@ class MyObject : public node::ObjectWrap {
     static void getPosition(const v8::FunctionCallbackInfo<v8::Value>& args);
     static void setPosition(const v8::FunctionCallbackInfo<v8::Value>& args);
     static void changeValue(const v8::FunctionCallbackInfo<v8::Value>& args);
-
+    static void getChild(const v8::FunctionCallbackInfo<v8::Value>& args);
     static v8::Persistent<v8::Function> constructor;
 
+    void CloudAppWeakReferenceCallback(v8::Persistent<v8::Value> object, void * param);
 
 #define v8FunctionGenerator(Class, V8ReturnType, Function) \
 static void v8_##Function(const v8::FunctionCallbackInfo<v8::Value>& args)\
@@ -57,6 +58,8 @@ static void v8_##Function(const v8::FunctionCallbackInfo<v8::Value>& args)\
     int mWidth;
     int mHeight;
     int mColor;
+
+    MyObject* mChild;
 };
 
 #endif
